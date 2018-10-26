@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 6</title>
+</head>
+<body>
+  <div>
+  <button ng-click="showText1 = true; showText2 = false"> Paragraphe1 </button>
+  <button ng-click="showText1 = false; showText2 = true"> Paragraphe2 </button>
+  <p ng-show="showText1" ng-init="showText1 = false">PARAGRAPHE 1<br />Sed maximum est in amicitia parem esse inferiori. Saepe enim excellentiae quaedam sunt, qualis erat Scipionis in nostro, ut ita dicam, grege. Numquam se ille Philo, numquam Rupilio, numquam Mummio anteposuit, numquam inferioris ordinis amicis, Q. vero Maximum fratrem, egregium virum omnino, sibi nequaquam parem, quod is anteibat aetate, tamquam superiorem colebat suosque omnes per se posse esse ampliores volebat.</p>
+  <p ng-show="showText2" ng-init="showText2 = false">PARAGRAPHE 2<br />Tempore quo primis auspiciis in mundanum fulgorem surgeret victura dum erunt homines Roma, ut augeretur sublimibus incrementis, foedere pacis aeternae Virtus convenit atque Fortuna plerumque dissidentes, quarum si altera defuisset, ad perfectam non venerat summitatem.</p>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
